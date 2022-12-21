@@ -12,15 +12,17 @@ const Mywork = () => {
         <h1 className="section_title">My Work</h1>
         <h3 className="section_subtitle">most recent work</h3>
         <div className="work-list">
-            <div alt="work1" className="work">
-                <img src={work1}alt="work-1.jpg" />
-                <div className="layer">
-                    <h3>Food Delivery Service</h3>
-                    <p>Visit</p>
 
-                    <a href="https://parag3195.github.io/cartzilla/"><i class='bx bxs-right-top-arrow-circle'></i></a>
+        <div className="work">
+            <img src={work4}alt="work-3.jpg" />
+
+                <div className="layer">
+                    <h3>Facebook</h3>
+                    <p>Visit</p>
+                    <a href="https://parag3195.github.io/Facebook_dark/"><i class='bx bxs-right-top-arrow-circle'></i></a>
                 </div>
             </div>
+
             <div className="work">
             <img src={work2}alt="work-2.jpg" />
 
@@ -30,15 +32,17 @@ const Mywork = () => {
                     <a href="https://parag3195.github.io/Raut-Agro/"><i class='bx bxs-right-top-arrow-circle'></i></a>
                 </div>
             </div>
-            <div className="work">
-            <img src={work4}alt="work-3.jpg" />
-
+            <div alt="work1" className="work">
+                <img src={work1}alt="work-1.jpg" />
                 <div className="layer">
-                    <h3>Facebook</h3>
+                    <h3>Food Delivery Service</h3>
                     <p>Visit</p>
-                    <a href="https://parag3195.github.io/facebook/"><i class='bx bxs-right-top-arrow-circle'></i></a>
+
+                    <a href="https://parag3195.github.io/cartzilla/"><i class='bx bxs-right-top-arrow-circle'></i></a>
                 </div>
             </div>
+           
+            
             <div className="work">
             <img src={work5}alt="work-5.jpg" />
 
